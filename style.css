@@ -74,6 +74,11 @@ h1 {
     margin: auto 0 auto 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* for mobile devices */
 
 @media (max-width: 375px) {
@@ -117,10 +122,8 @@ h1 {
         width: 100%;
     }
 
-    .pointer {
-        cursor: pointer;
-        text-decoration: none;
-        color: #fff;
+    a {
+    cursor: pointer;
     }
 
     footer {
