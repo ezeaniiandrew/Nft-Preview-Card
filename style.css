@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 20px;
+    background: #14253d;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.text {
+    width: 300px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    color: #8bacda;
+}
+
+.container {
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    font-size: 18px;
+    color: #8bacda;
+}
+
+.eth {
+    font-size: 18px;
+    color: #00fff7;
+}
+
+.line {
+    margin-top: 20px;
+    height: 2px;
+    width: auto;
+    background: #2f415b;
+}
+
+.creation {
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    font-weight: 300;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.creation-text {
+    color: #8bacda;
+    margin: auto 0 auto 20px;
+}
+
+/* for mobile devices */
+
+@media (max-width: 375px) {
+    main {
+        background: #0d192b;
+        width: 100%;
+        height: 860px;
+        padding: 0 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: black; */
+    }
+
+    .card .equilibrum {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    footer {
+        display: none;
+    }    
+}
+
+/* for large devices */
+
+@media (min-width: 500px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 655px;
+        background: #0d192b;
+    }
+
+    .card .equilibrum {
+        border-radius: 10px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .pointer {
+        cursor: pointer;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    footer {
+        margin-top: 80px;
+    }
+}
